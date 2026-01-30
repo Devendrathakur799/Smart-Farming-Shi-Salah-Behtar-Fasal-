@@ -30,7 +30,7 @@ export default function Help() {
             <p className="text-sm text-gray-600 mt-1">
               Reach us at <br />
               <span className="font-medium text-emerald-700">
-                support@cropai.com
+                support@smatforming.com
               </span>
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function Help() {
             <h3 className="font-semibold text-lg">Phone Support</h3>
             <p className="text-sm text-gray-600 mt-1">
               Mon–Fri (10AM–6PM) <br />
-              +91 98765 43210
+              +917999575817
             </p>
           </div>
 

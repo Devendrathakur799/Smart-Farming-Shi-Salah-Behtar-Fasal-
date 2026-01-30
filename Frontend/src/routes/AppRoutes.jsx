@@ -9,7 +9,10 @@ import Home from "../pages/Home";
 import DiseaseDetection from "../pages/DiseaseDetection";
 
 
+
+
 // Dashboard pages
+import Overview from "../pages/dashboard/Overview";
 import DashboardHome from "../pages/dashboard/DashboardLayout";
 import Detection from "../pages/dashboard/Detection";
 import Analytics from "../pages/dashboard/Analytics";
@@ -31,6 +34,7 @@ export default function AppRoutes() {
 
       {/* DASHBOARD ROUTES */}
       <Route path="/dashboard" element={<DashboardHome />} />
+      <Route path="/dashboard/overview" element={<Overview />} /> {/* ✅ */}
       <Route path="/dashboard/detection" element={<Detection />} />
       <Route path="/dashboard/analytics" element={<Analytics />} />
       <Route path="/dashboard/health" element={<Health />} />
@@ -48,7 +52,8 @@ export default function AppRoutes() {
      
        <Route path="/dashboard/help" element={<Help />} /> {/* ✅ */}
        <Route path="/login" element={<Login />} />
-      
+
+        
     </Routes>
   );
 }
